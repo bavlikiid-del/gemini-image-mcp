@@ -1,0 +1,19 @@
+{
+  "name": "gemini-image-mcp",
+  "version": "1.0.0",
+  "description": "Remote MCP server for Claude to generate images with Gemini Nano Banana",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  }
+}
